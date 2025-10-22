@@ -1,5 +1,7 @@
 # bombaOS
 
+Please read WINDOWS-INSTALLATION-GUIDE.txt
+
 A modern Arch-based Linux distribution featuring Hyprland compositor and a streamlined installation experience.
 
 ## Features
@@ -24,5 +26,6 @@ A modern Arch-based Linux distribution featuring Hyprland compositor and a strea
 ```bash
 sudo ./build.sh
 ```
+
 
 This will create a bootable ISO ready for USB installation.
