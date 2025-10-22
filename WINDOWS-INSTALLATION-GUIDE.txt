@@ -1,0 +1,34 @@
+﻿bombaOS Installation Guide for Windows Users
+===========================================
+
+Step 1: Download Arch Linux ISO
+- Go to: https://archlinux.org/download/
+- Download the latest ISO file
+
+Step 2: Create Bootable USB
+- Download Rufus: https://rufus.ie/
+- Select your USB drive
+- Select the Arch Linux ISO
+- Click START
+
+Step 3: Boot and Install Arch Linux
+- Boot from USB
+- Follow Arch installation guide: https://wiki.archlinux.org/title/Installation_guide
+- Install base system with desktop environment
+
+Step 4: Install bombaOS Components
+- Copy this folder to your Arch Linux system
+- Run: chmod +x setup-bombaOS.sh
+- Run: ./setup-bombaOS.sh
+
+Step 5: Enjoy bombaOS!
+- Reboot and select Hyprland session
+- Your bombaOS system is ready!
+
+Files Included:
+- configs/: Hyprland and application configurations
+- installer/: Custom installer (for advanced users)
+- packages/: List of recommended packages
+- setup-bombaOS.sh: Automated setup script
+
+For support, see: README.md and INSTALL.md
